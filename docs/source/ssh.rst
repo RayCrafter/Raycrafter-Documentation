@@ -9,8 +9,6 @@ First you need access to the hornet cluster. They also send you the password in 
 1. Install openssh.
 2. Test if this works ``ssh username@hornet.hww.de``
 
-My username is ``hpcmscdz``.
-
 To automatically authenticate, you need ssh keys.
 Create ssh-keys and copy the public key to the hornet::
 
