@@ -2,7 +2,7 @@
 SSH
 ===
 
-`HLRS ssh wiki <https://wickie.hlrs.de/platforms/index.php/Secure_Shell_ssh>`
+See `HLRS SSH Wiki <https://wickie.hlrs.de/platforms/index.php/Secure_Shell_ssh>`_.
 
 First you need access to the hornet cluster. They also send you the password in a seperate email.
 

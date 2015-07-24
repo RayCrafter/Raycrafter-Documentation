@@ -2,7 +2,7 @@
 Gridftp
 =======
 
-`GridFTP <https://wickie.hlrs.de/platforms/index.php/Data_Transfer_with_GridFTP>`_ can be used for high-performance data transfer.
+`GridFTP <https://wickie.hlrs.de/platforms/index.php/Data_Transfer_with_GridFTP>`_ can be used for high-performance data transfer. Alternative, more extensive guide can be found `here <https://wickie.hlrs.de/dgrid/>`_.
 In order to use it, a lot of 'paperwork' has to be done.
 
 -----------------
