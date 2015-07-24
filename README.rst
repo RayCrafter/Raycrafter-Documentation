@@ -2,8 +2,8 @@
 Raycrafter Documentation
 ========================
 
-.. image:: https://readthedocs.org/projects/raycrafter/badge/?version=latest&style=flat
-    :target: http://raycrafter.readthedocs.org/en/latest/
+.. image:: https://readthedocs.org/projects/raycrafter/badge/?version=master&style=flat
+    :target: http://raycrafter.readthedocs.org/en/master/
     :alt: Documentation
 
 Main documentation for the whole RayCrafter project.
