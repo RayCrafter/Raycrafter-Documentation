@@ -10,6 +10,7 @@ Contents:
    :maxdepth: 2
 
    workflow
+   gridftp
 
 
 Indices and tables
