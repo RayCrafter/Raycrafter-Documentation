@@ -10,7 +10,10 @@ Contents:
    :maxdepth: 2
 
    workflow
+   scheduling
+   ssh
    gridftp
+
 
 
 Indices and tables
