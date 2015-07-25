@@ -56,7 +56,7 @@ texinfo_documents = [
 # -- Intersphinx Config ----------------------------------------------------
 
 intersphinx_mapping = {'python': ('https://docs.python.org/', None),
-                       'ansible-raycrafter': ('http://ansible-raycrafter.readthedocs.org/en/latest/', None),
+                       'ansible-raycrafter': ('http://ansibleraycrafter.readthedocs.org/en/latest/', None),
                        'clusterclienttest': ('http://clusterclienttest.readthedocs.org/en/latest/', None),
                        'clusterlogger': ('http://clusterlogger.readthedocs.org/en/latest/', None),
 }
