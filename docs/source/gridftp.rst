@@ -11,7 +11,7 @@ X.509 certificate
 
 You need a certifiacte to use the service. For the Univeristy of Stuttgart, contact Thomas Beisel.
 He is part of the RA of the DFN (Deutsches Forschungsnetz). You have to send im a certificate request.
-A good general guide can be found `here <https://www.pki.dfn.de/fileadmin/PKI/anleitungen/Anleitung_Nutzung_OpenSSL.pdf>`_.
+A good general guide can be found at the `DFN <https://www.pki.dfn.de/fileadmin/PKI/anleitungen/Anleitung_Nutzung_OpenSSL.pdf>`_.
 Be aware that there are some special requirements:
 
   - If you have a server that uses GridFTP, see the `robot certificate FAQ <https://www.pki.dfn.de/faqpki/faqpki-grid/>`_.
