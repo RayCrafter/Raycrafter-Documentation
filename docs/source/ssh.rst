@@ -22,8 +22,7 @@ Create ssh-keys and copy the public key to the hornet::
 Github/Bitbucket
 ----------------
 
-You cannot get internet access, but create an ssh tunnel.
-
+To clone a repository from github or bitbucket, you have to setup a ssh tunnel.
 Choose two free ports for the hosts and login to the hornet::
 
   $ ssh -R42420:bitbucket.org:22 -R42421:github.com:22 hpcmscdz@hornet.hww.de
