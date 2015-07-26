@@ -10,10 +10,22 @@ This section describes process involved in rendering on the cluster.
    :scale: 100%
 
 - It starts with the user submitting a job. This can be done via the REST API.
-  The job might describe a frame range to render.
-- With this information, a job is created in the database. Then subjobs are
-  generated. E.g. one for every frame to render.
+  The job has a name and acts as a group for subjobs
+- Subjobs are the actual jobs that will later get queued on the cluster.
+  A subjob might be a single frame, while a job might bundle a whole framerange.
+  A subjob explicitly describes what the renderer should do (for example
+  which input file to use).
 
+.. Note:: My first thought was to only submit a job, which roughly describes a renderjob,
+          and that the server automatically creates the subjobs.
+          This might seem convenient but the server needs a lot more logic and information.
+          E.g. your input files might be distributed over several directories or all in the
+          same place. The server would need to know a lot about the pipeline.
+          The problem is, that the server might not be able to scan a directory, because
+          he doesn't even have access. So the explicit approach enables the Hauler to
+          live on a different server which actually has access to the filesystem and
+          can transfer data via :ref:`gridftp` or something similar.
+  
 Hauler:
 
 - Now the input data has to be transferred to the cluster.
