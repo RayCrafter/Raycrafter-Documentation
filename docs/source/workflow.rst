@@ -9,7 +9,11 @@ This section describes process involved in rendering on the cluster.
 .. image:: workflow.png
    :scale: 100%
 
-- It starts with the user submitting a job. This can be done via the REST API.
+- The user has to provide preprocessed input files that are ready to render.
+  For that he might have to adjust paths in the input files.
+  So he might create a workspace beforehand (via the REST API) and use
+  the path to the workspace to relink the paths in the input files.
+- The user submits a job. This can be done via the REST API.
   The job has a name and acts as a group for subjobs
 - Subjobs are the actual jobs that will later get queued on the cluster.
   A subjob might be a single frame, while a job might bundle a whole framerange.
@@ -25,7 +29,10 @@ This section describes process involved in rendering on the cluster.
           he doesn't even have access. So the explicit approach enables the Hauler to
           live on a different server which actually has access to the filesystem and
           can transfer data via :ref:`gridftp` or something similar.
-  
+
+- The RayCrafter Server will process the job requests and issue hauler and submitter
+  to perform tasks.
+
 Hauler:
 
 - Now the input data has to be transferred to the cluster.
