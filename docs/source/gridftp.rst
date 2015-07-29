@@ -37,7 +37,7 @@ Next step is to extract the certificate and keyfile. You have to enter the passw
    MAC verified OK
    user@host:~>
 
-The before created files containing user certificate and private key have to be moved to the folder ~./globus for the corresponding user and given proper access rights.
+The before created files containing user certificate and private key have to be moved to the folder ~./globus for the corresponding user and given proper access rights::
 
    user@host:~> mkdir -p ~/.globus
    user@host:~> mv usercert.pem ~/.globus/
